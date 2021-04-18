@@ -1,6 +1,6 @@
 <?php
 
-namespace Orapakat\Zenzivadev\Providers;
+namespace Orapakat\Zenzivadev;
 
 use Illuminate\Support\ServiceProvider;
 
