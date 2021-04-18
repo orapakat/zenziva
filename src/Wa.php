@@ -1,6 +1,6 @@
 <?php
 
-namespace Orapakat\Zenziva;
+namespace Orapakat\Zenzivadev;
 
 class Wa {
     // WA Regular Sending

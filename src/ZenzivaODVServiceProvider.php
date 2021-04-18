@@ -1,10 +1,10 @@
 <?php
 
-namespace Orapakat\Zenziva\Providers;
+namespace Orapakat\Zenzivadev\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-class OrapakatdevServiceProvider extends ServiceProvider
+class ZenzivaODVServiceProvider extends ServiceProvider
 {
     /**
      * Register services.

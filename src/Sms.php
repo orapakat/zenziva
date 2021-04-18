@@ -1,6 +1,6 @@
 <?php
 
-namespace Orapakat\Zenziva;
+namespace Orapakat\Zenzivadev;
 
 class Sms {
     // SMS Regular Sending
