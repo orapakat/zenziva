@@ -1,33 +1,23 @@
 how to use this package?<br /><br />
 
-Install with composer:
-composer require orapakat/zenzivadev
+Install with composer:<br />
+composer require orapakat/zenzivadev<br /><br />
 
-Update composer in laravel project:
-php artisan vendor:publish
+Update composer in laravel project:<br />
+php artisan vendor:publish<br /><br />
 
-Select the provider class: 
-Provider: Orapakat\Zenzivadev\ZenzivaODVServiceProvider
+Select the provider class: <br />
+Provider: Orapakat\Zenzivadev\ZenzivaODVServiceProvider<br /><br />
 
-===========================================================================
-Change content in file config/orapakatdev_zenziva.php
+===========================================================================<br />
+Change content in file config/orapakatdev_zenziva.php<br /><br />
 
-/*
-    |--------------------------------------------------------------------------
-    | Data Connection SMS and Whatsapp Regular
-    |--------------------------------------------------------------------------
-    */
-    'urlRegular' => 'https://console.zenziva.net/', // url regular
-    'UserkeyRegular' => '',
-    'ApikeyRegular' => '',
-    /*
-    |--------------------------------------------------------------------------
-    | Data Connection SMS and Whatsapp Center
-    |--------------------------------------------------------------------------
-    */
-    'urlCenter' => 'http://[alamatcenter].zenziva.co.id/', // url center
-    'UserkeyCenter' => '',
-    'ApikeyCenter' => '',
-    'instanceID' => '',
+    'urlRegular' => 'https://console.zenziva.net/', <br />
+    'UserkeyRegular' => '',<br />
+    'ApikeyRegular' => '',<br />
+    'urlCenter' => 'http://[alamatcenter].zenziva.co.id/',<br />
+    'UserkeyCenter' => '',<br />
+    'ApikeyCenter' => '',<br />
+    'instanceID' => '',<br /><br />
     
 register on the zenziva.id site to get the user and the api key.    
