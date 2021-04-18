@@ -1,0 +1,26 @@
+{
+    "name": "orapakat/zenziva",
+    "description": "Application of sms api and whatsapp (Regular, Center, Masking) from the zenziva.id site",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Orapakat Dev",
+            "email": "contact@orapakat.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Orapakat\\Zenziva\\": "src/" 
+        } 
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Orapakat\\Zenziva\\Providers\\OrapakatdevZenzivaServiceProvider"
+            ]
+        }
+    }
+}
+ 
