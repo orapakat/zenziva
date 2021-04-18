@@ -14,13 +14,6 @@
         "psr-4": {
             "Orapakat\\Zenzivadev\\": "src/" 
         } 
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Orapakat\\Zenzivadev\\Providers\\ZenzivaODVServiceProvider"
-            ]
-        }
     }
 }
  
