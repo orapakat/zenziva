@@ -12,7 +12,7 @@ Illuminate\Auth\AuthServiceProvider::class,
 /*
  * Package Service Providers...
  */
-Orapakat\Zenzivadev\Providers\DemoPackageServiceProvider::class,
+Orapakat\Zenzivadev\Providers\ZenzivaODVServiceProvider::class,
 
 /*
  * Application Service Providers...
