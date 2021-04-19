@@ -24,25 +24,28 @@ register on the zenziva.id site to get the user and the api key.<br />
 
 ====================================================================<br />
 <b>Guide:</b><br /><br />
-Sending SMS Regular: Sms::rsend($telp,$sms)<br />
-Sending SMS Masking: Sms::msend($telp,$sms)<br />
-Sending OTP Masking: Sms::otpsend($telp,$sms)<br />
-Sending SMS Center: Sms::csend($telp,$sms)<br />
-Delevery Report SMS Center: Sms::dreport($messageid)<br />
-Pulsa Check SMS Center: Sms::cpulsa()<br />
-Credit Check SMS Center: Sms::ccredit()<br />
-Reading SMS Center (Autoreply): Sms::readsms()<br />
-Add Contact SMS Center: Sms::addcontact($name,$nohp)<br />
-Get Inbox SMS Center: Sms::getinbox($startdate,$enddate)<br />
-Get Outbox SMS Center: Sms::getoutbox($startdate,$enddate)<br /><br />
+Add namespace in Controller:<br />
+use Orapakat\Zenzivadev\Sms as SMS;<br />
+use Orapakat\Zenzivadev\Wa as WA;<br /><br />
+Sending SMS Regular: SMS::rsend($telp,$sms)<br />
+Sending SMS Masking: SMS::msend($telp,$sms)<br />
+Sending OTP Masking: SMS::otpsend($telp,$sms)<br />
+Sending SMS Center: SMS::csend($telp,$sms)<br />
+Delevery Report SMS Center: SMS::dreport($messageid)<br />
+Pulsa Check SMS Center: SMS::cpulsa()<br />
+Credit Check SMS Center: SMS::ccredit()<br />
+Reading SMS Center (Autoreply): SMS::readsms()<br />
+Add Contact SMS Center: SMS::addcontact($name,$nohp)<br />
+Get Inbox SMS Center: SMS::getinbox($startdate,$enddate)<br />
+Get Outbox SMS Center: SMS::getoutbox($startdate,$enddate)<br /><br />
 
-Sending WhatsApp Regular: Wa::rsend($telp,$sms)<br />
-Sending File WhatsApp Regular: Wa::fsend($telp,$caption,$linkurlfile)<br />
-Sending Voice WhatsApp Regular: Wa::vsend($telp,$sms)<br />
-Sending WhatsApp Center: Wa::csend($telp,$sms)<br />
-Delivery Report WhatsApp Center: Wa::dreport($messageid)<br />
-Credit Check WhatsApp Center: Wa::creditactive()<br />
-Sending File WhatsApp Center: Wa::cfsend($telp,$caption,$linkfile)<br />
-Add Contact WhatsApp Center: Wa::addcontact($name,$nohp)<br />
-Get Inbox WhatsApp Center: Wa::getinbox($startdate,$enddate)<br />
-Get Outbox WhatsApp Center: Wa::getoutbox($startdate,$enddate)<br /><br />
+Sending WhatsApp Regular: WA::rsend($telp,$sms)<br />
+Sending File WhatsApp Regular: WA::fsend($telp,$caption,$linkurlfile)<br />
+Sending Voice WhatsApp Regular: WA::vsend($telp,$sms)<br />
+Sending WhatsApp Center: WA::csend($telp,$sms)<br />
+Delivery Report WhatsApp Center: WA::dreport($messageid)<br />
+Credit Check WhatsApp Center: WA::creditactive()<br />
+Sending File WhatsApp Center: WA::cfsend($telp,$caption,$linkfile)<br />
+Add Contact WhatsApp Center: WA::addcontact($name,$nohp)<br />
+Get Inbox WhatsApp Center: WA::getinbox($startdate,$enddate)<br />
+Get Outbox WhatsApp Center: WA::getoutbox($startdate,$enddate)<br /><br />
