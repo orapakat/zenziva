@@ -19,7 +19,10 @@
         "laravel": {
             "providers": [
                 "Orapakat\\Zenzivadev\\ZenzivaODVServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "odvzenziva": "Orapakat\\Zenzivadev\\ZenzivaODVServiceProvider"
+            }
         }
     }
 }
