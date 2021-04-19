@@ -17,4 +17,12 @@ return [
     'UserkeyCenter' => '',
     'ApikeyCenter' => '',
     'instanceID' => '',
+    /*
+    |--------------------------------------------------------------------------
+    | Data Connection SMS Center
+    |--------------------------------------------------------------------------
+    */
+    'urlSMSCenter' => 'http://[alamatcenter].zenziva.co.id/', // url center
+    'UserkeySMSCenter' => '',
+    'ApikeySMSCenter' => '',
 ];    
